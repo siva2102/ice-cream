@@ -1,0 +1,74 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 83, 136);
+  
+}
+
+/* navbar */
+.nav-item a {
+    border-bottom: 2px solid transparent;
+}
+
+.nav-item a:hover {
+    border-bottom: 2px solid rgba(232, 7, 206, 0.968);
+    transition: 0.5s;
+}
+
+
+#Home-cont {
+    background-color: rgba(128, 128, 128, 0.108);
+    height: 80vh;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.364);
+
+}
+
+#logo {
+    font-family: fantasy;
+}
+
+.lead {
+    color: #FFB22C;
+}
+
+#arun-title {
+    font-family: fantasy;
+    color: #c6ce33bd;
+
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#menu1{
+    background-image: url(img/header.jpg);
+    width: 80%; 
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+#menu-btn:hover{
+    background-color: white;
+    color:#dc3545;
+}
+#menu-btn1:hover{
+    background-color: #dc3545;
+    color:white !important;
+}
+
+footer{
+    background:#FFA5BA;
+    width: 100%;
+}
