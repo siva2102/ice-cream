@@ -22,6 +22,8 @@ body {
 
 
 #Home-cont {
+    background-image: url(img/carousel-2.jpg) ;
+    opacity:50px;
     background-color: rgba(128, 128, 128, 0.108);
     height: 80vh;
     box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.364);
